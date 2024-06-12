@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
 import { BaseQueryFn, createApi, FetchArgs, fetchBaseQuery, FetchBaseQueryError } from '@reduxjs/toolkit/query/react';
-import { getDataFromSessionStorage } from 'src/shared/utils/utils.service';
+import { getDataFromSessionStorage } from '../shared/utils/utils.service';
 
 const BASE_ENDPOINT = import.meta.env.VITE_BASE_ENDPOINT;
 
